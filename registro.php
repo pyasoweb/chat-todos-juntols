@@ -10,10 +10,10 @@ if ($_POST['submit']) {
 if (mail($para, $titulo, $msjCorreo, $header)) {
 echo "<script language='javascript'>
 alert('Mensaje enviado, muchas gracias.');
-window.location.href = 'http://tokyo-zona-zero.esy.es';
+window.location.href = 'https://chatalborada.com/';
 </script>";
 } else {
-echo 'Falló el envio';
+echo 'FallÃ³ el envio';
 }
 }
 ?>
